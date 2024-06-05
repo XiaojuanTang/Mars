@@ -1,0 +1,37 @@
+{
+    "collect_wood": [
+        {
+            "init_inventory": {},
+            "table_in_view": false,
+            "furnace_in_view": false,
+            "plan": [
+                "mine('tree',1)"
+            ]
+        }
+    ],
+    "collect_stone": [
+        {
+            "init_inventory": {},
+            "plan": [
+                "mine('tree',3)",
+                "place('table')",
+                "craft('wood pickaxe')",
+                "mine('stone',1)"
+            ]
+        }
+    ],
+    "collect_iron": [
+        {
+            "init_inventory": {},
+            "plan": [
+                "mine('tree',3)",
+                "place('table')",
+                "craft('wood pickaxe')",
+                "mine('stone',3)",
+                "place('furnace')",
+                "craft('stone pickaxe')",
+                "mine('iron',1)"
+            ]
+        }
+    ]
+}

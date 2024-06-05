@@ -1,0 +1,16 @@
+# You are the player that interacts with the environment:
+noop; # the player do nothing.
+getToBlock(block_name); # When the block is in the bot's view, move the player to the front of block. E.g., getToBlock('stone') will move the player to the stone block. If the block is in the front of bot, return "success". Otherwise, the player could not arrive at the block, return "failed".
+interactWithBlock; # interact with the block at the bot's front.
+exploreDirection(direction, n); # directs the player to explore in a specified direction about n steps. E.g., exploreDirection('left', 5) will move the player left about 5 steps. The directions include left, right, up, down, up-left, up-right, down-left, down-right.
+sleep; # put the player to sleep.
+place_stone; # place a stone block.
+place_table; # place a crafting table.
+place_furnace; # place a furnace.
+place_plant; # place a plant.
+make_wood_pickaxe; # craft a wood pickaxe.
+make_stone_pickaxe; # craft a stone pickaxe.
+make_iron_pickaxe; # craft an iron pickaxe.
+make_wood_sword; # craft a wood sword.
+make_stone_sword; # craft a stone sword.
+make_iron_sword; # craft an iron sword.
