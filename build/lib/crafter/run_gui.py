@@ -31,7 +31,7 @@ def main():
   parser.add_argument('--wait', type=boolean, default=True)
   parser.add_argument('--death', type=str, default='quit', choices=[
       'continue', 'reset', 'quit'])
-  parser.add_argument('--gen_world', type=boolean, default=False)
+  parser.add_argument('--gen_world', type=boolean, default=True)
   # parser.add_argument('--default', type=boolean, default=True)
   parser.add_argument('--change_terrain', type=boolean, default=False)
   parser.add_argument('--terrian_kind', type=str, default='individual', choices=['permutation', 'individual', 'default'])
