@@ -1,6 +1,6 @@
 import numpy as np
-from crafter.api.envWrapper import *
-import crafter
+from mars.api.envWrapper import *
+import mars
 import logging
 
 id_to_item = ID2OBJ

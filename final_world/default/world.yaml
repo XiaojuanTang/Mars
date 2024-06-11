@@ -15,50 +15,6 @@ walkable_effect:
   sand: {walkable: true, walk_health: 0, dieable: false}
   tree: {walkable: false, walk_health: 0, dieable: false}
 
-
-items:
-  health: {max: 9, initial: 9}
-  food: {max: 9, initial: 9}
-  drink: {max: 9, initial: 9}
-  energy: {max: 9, initial: 9}
-  sapling: {max: 9, initial: 0}
-  wood: {max: 9, initial: 0}
-  stone: {max: 9, initial: 0}
-  coal: {max: 9, initial: 0}
-  iron: {max: 9, initial: 0}
-  diamond: {max: 9, initial: 0}
-  wood_pickaxe: {max: 9, initial: 0}
-  stone_pickaxe: {max: 9, initial: 0}
-  iron_pickaxe: {max: 9, initial: 0}
-  wood_sword: {max: 9, initial: 0}
-  stone_sword: {max: 9, initial: 0}
-  iron_sword: {max: 9, initial: 0}
-
-
-achievements:
-  - collect_coal
-  - collect_diamond
-  - collect_drink
-  - collect_iron
-  - collect_sapling
-  - collect_stone
-  - collect_wood
-  - kill_skeleton
-  - kill_zombie
-  - kill_cow
-  - eat_plant
-  - make_iron_pickaxe
-  - make_iron_sword
-  - make_stone_pickaxe
-  - make_stone_sword
-  - make_wood_pickaxe
-  - make_wood_sword
-  - place_furnace
-  - place_plant
-  - place_stone
-  - place_table
-  - wake_up
-
 terrain_neighbour:
   coal: stone
   iron: stone

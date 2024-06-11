@@ -3,17 +3,17 @@ import pathlib
 
 
 setuptools.setup(
-    name='crafter',
+    name='mars',
     version='1.8.3',
-    description='Open world survival game for reinforcement learning.',
-    url='http://github.com/danijar/crafter',
+    description='Open world game for situated inductive reasoning.',
+    url='https://github.com/XiaojuanTang/Mars',
     long_description=pathlib.Path('README.md').read_text(),
     long_description_content_type='text/markdown',
-    packages=['crafter'],
-    package_data={'crafter': ['*.yaml', 'assets/*', 'api/*']},
-    entry_points={'console_scripts': ['crafter=crafter.run_gui:main']},
+    packages=['mars'],
+    package_data={'mars': ['*.yaml', 'assets/*']},
+    entry_points={'console_scripts': ['mars=mars.run_gui:main']},
     install_requires=[
-        'numpy', 'imageio', 'pillow', 'opensimplex', 'ruamel.yaml',
+        'imageio', 'pillow', 'opensimplex', 'ruamel.yaml', 'pyyaml', 'graphviz', 'pygame', 'gym', 'opencv-python','numpy'
     ],
     extras_require={'gui': ['pygame']},
     classifiers=[

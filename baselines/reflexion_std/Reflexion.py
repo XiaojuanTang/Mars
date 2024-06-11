@@ -2,13 +2,13 @@
 
 from openai import AzureOpenAI
 from utils import *
-from crafter.api.envWrapper import *
-from crafter.api.controller import *
+from mars.api.envWrapper import *
+from mars.api.controller import *
 import argparse
 import pathlib
 
 import pygame
-import crafter, os, shutil
+import mars, os, shutil
 import tiktoken
 from datetime import datetime
 from openai import OpenAI
@@ -124,8 +124,8 @@ def main():
     code_file = record_path / log_filename / os.path.basename(__file__)
     shutil.copyfile(current_file_abs, code_file)
 
-    env = crafter.Env(seed= args.seed, args = args, screen=screen, clock=clock)
-    env = crafter.Recorder(env, record_path / log_filename)
+    env = mars.Env(seed= args.seed, args = args, screen=screen, clock=clock)
+    env = mars.Recorder(env, record_path / log_filename)
 
     
 

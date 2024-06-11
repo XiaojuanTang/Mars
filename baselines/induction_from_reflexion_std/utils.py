@@ -1,5 +1,5 @@
 import numpy as np
-from crafter.api.envWrapper import *
+from mars.api.envWrapper import *
 
 import logging, json
 
