@@ -110,7 +110,7 @@ collect:
   iron: {require: {stone_pickaxe: 1}, receive: {iron: 1}, leaves: {material: path, object: null}}
   diamond: {require: {iron_pickaxe: 1}, receive: {diamond: 1}, leaves: {material: path, object: null}}
   water: {require: {}, receive: {drink: 1}, leaves: {material: water, object: null}}
-  lava: {require: {}, receive: {drink: 1}, leaves: {material: lava, object: null}}
+  lava: {require: {}, receive: {}, leaves: {material: lava, object: null}}
   grass: {require: {}, receive: {sapling: {amount: 1, probability: 0.5}}, leaves: {material: grass, object: null}}
   sand: {require: {}, receive: {}, leaves: {material: sand , object: null}}
 

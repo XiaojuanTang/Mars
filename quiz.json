@@ -1,0 +1,509 @@
+[ {
+    "id": 1,
+    "question": "Which of the following terrains can be walked on without any health effects or risks?",
+    "choices": ["A) Water", "B) Grass", "C) Lava", "D) Tree", "E) None of the above"],
+    "answer": "B) Grass",
+    "source": "Grass is walkable without any health effects or risks."
+  },
+  {
+    "id": 2,
+    "question": "What is one of the surfaces to walk on?", 
+    "choices": ["A) Sand", "B) Tree", "C) Water", "D) Coal", "E) None of the above"],
+    "answer": "A) Sand",
+    "source": "Sand is walkable without any health effects or risks."
+  },
+  {
+    "id": 3,
+    "question": "Which of the following terrains can be walked on without any health effects or risks?",
+    "choices": ["A) Water", "B) Sand", "C) Lava", "D) Tree", "E) None of the above"],
+    "answer": "B) Sand",
+    "source": "Sand is walkable without any health effects or risks."
+  },
+  {
+    "id": 4,
+    "question": "which of the following statements is true about path?",
+    "choices": ["A) Path can be walked on.", "B) Path is not safe.", "C) Path can be eaten.", "D) Path is not walkable.", "E) None of the above"],
+    "answer": "A) Path can be walked on.",
+    "source": "Path is walkable without any health effects or risks."
+  },
+  {
+    "id": 5,
+    "question": "If a player walks on a path, what is the expected outcome?",
+    "choices": ["A) They lose health gradually.", "B) They will die.", "C) They walk without any health effects.", "D) None of the above"],
+    "answer": "C) They walk without any health effects.",
+    "source": "Path is walkable without any health effects or risks."
+  },
+  {
+    "id": 6,
+    "question": "Which of the following surfaces is not safe?",
+    "choices": ["A) Path", "B) Grass", "C) Sand", "D) Lava", "E) None of the above"],
+    "answer": "D) Lava",
+    "source": "Grass, path, and sand are walkable without any health effects or risks."
+  },
+  {
+    "id": 7,
+    "question": "Which of the following statements is true about walking on grass, path, and sand?",
+    "choices": ["A) Walking on these surfaces will slow the player down.", "B) These surfaces cause minor health damage over time.", "C) Walking on these surfaces has no health effects or risks.", "D) These surfaces provide a health boost.", "E) None of the above"],
+    "answer": "C) Walking on these surfaces has no health effects or risks.",
+    "source": "Grass, path, and sand are walkable without any health effects or risks."
+  },
+
+  {
+    "id": 8,
+    "question": "Which of the following materials is not walkable?",
+    "choices": ["A) Stone", "B) Path", "C) Grass", "D) Sand", "E) None of the above"],
+    "answer": "A) Stone",
+    "source": "Stone is not walkable."
+  },
+  {
+    "id": 9,
+    "question": "Which of these materials is not walkable?",
+    "choices": ["A) Diamond", "B) Grass", "C) Sand", "D) Path", "E) None of the above"],
+    "answer": "A) Diamond",
+    "source": "Diamond is not walkable."
+  },
+  { 
+    "id": 10,
+    "question": "If a player encounters coal and iron, what should they expect in terms of walkability?",
+    "choices": ["A) Both are walkable.", "B) Both are not walkable.", "C) Only coal is walkable.", "D) Only iron is walkable."],
+    "answer": "B) Both are not walkable.",
+    "source": "Stone, diamond, coal, iron, and water are not walkable."
+  },
+  {
+    "id": 11,
+    "question": "Which choice of items includes only materials that cannot be walked on?",
+    "choices": ["A) Stone, diamond, and coal", "B) Path, sand, and grass", "C) Iron, water, and sand", "D) Diamond, coal, and path", "E) None of the above"],
+    "answer": "A) Stone, diamond, and coal",
+    "source": "Stone, diamond, coal, iron, and water are not walkable."
+  },
+  {
+    "id": 12,
+    "question": "What is true for water?",
+    "choices": ["A) It is walkable.", "B) It is not walkable."],
+    "answer": "B) It is not walkable.",
+    "source": "Water is not walkable."
+  }, 
+  {
+    "id": 15,
+    "question": "What is a potential risk when walking on lava?",
+    "choices": ["A) No risk, it's safe.", "B) The player may die.", "C) The player will gain health.", "D) The player will move faster.", "E) None of the above"],
+    "answer": "B) The player may die.",
+    "source": "Lava is walkable but can cause death."
+  },
+  {
+    "id": 16,
+    "question": "What does a cow provide to the player?",
+    "choices": ["A) The cow can attack enemies.", "B) The cow can be eaten and gives food points.", "C) The cow can shoot projectiles.", "D) The cow increases the player's health directly.", "E) None of the above"],
+    "answer": "B) The cow can be eaten and gives food points.",
+    "source": "Cow can be eaten and give food points; cow cannot attack player; cow cannot shoot."
+  },
+  {
+    "id": 17,
+    "question": "If a player encounters a cow, what should they NOT expect?",
+    "choices": ["A) The cow can be eaten.", "B) The cow can attack the player.", "C) The cow gives food points.", "D) The cow is harmless.", "E) None of the above"],
+    "answer": "B) The cow can attack the player.",
+    "source": "Cow can be eaten and give food points; cow cannot attack player; cow cannot shoot."
+  },
+  {
+    "id": 18,
+    "question": "Which statement about a cow is accurate?",
+    "choices": ["A) The cow can shoot and attack the player.", "B) The cow provides food points but cannot attack or shoot.", "C) The cow only attacks when provoked.", "D) The cow is purely decorative.", "E) None of the above"],
+    "answer": "B) The cow provides food points but cannot attack or shoot.",
+    "source": "Cow can be eaten and give food points; cow cannot attack player; cow cannot shoot."
+  },
+  {
+    "id": 19,
+    "question": "What happens when a zombie walks to a player?",
+    "choices": ["A) The zombie gives the player food points.", "B) The zombie causes the player's health to decrease.", "C) The zombie shoots at the player.", "D) The zombie heals the player.", "E) None of the above"],
+    "answer": "B) The zombie causes the player's health to decrease.",
+    "source": "Zombie cannot be eaten; zombie can walk to player and attack player, causing the player's health to decrease; zombie cannot shoot."
+  },
+  {
+    "id": 20,
+    "question": "Which of these is NOT something a zombie can do?",
+    "choices": ["A) Walk to the player.", "B) Attack the player.", "C) Decrease the player's health.", "D) Be eaten by the player.", "E) None of the above"],
+    "answer": "D) Be eaten by the player.",
+    "source": "Zombie cannot be eaten; zombie can walk to player and attack player, causing the player's health to decrease; zombie cannot shoot."
+  },
+  {
+    "id": 21,
+    "question": "What happens when a player encounters a zombie?",
+    "choices": ["A) The player can eat the zombie.", "B) The zombie decreases the player's health by attacking.", "C) The zombie shoots at the player.", "D) The player gains health from the zombie.", "E) None of the above"],
+    "answer": "B) The zombie decreases the player's health by attacking.",
+    "source": "Zombie cannot be eaten; zombie can walk to player and attack player, causing the player's health to decrease; zombie cannot shoot."
+  },
+  {
+    "id": 22,
+    "question": "What ability does a skeleton have?",
+    "choices": ["A) It can be eaten for food points.", "B) It can shoot and decrease the player's health.", "C) It cannot shoot.", "D) It can cause the player's health to increase.", "E) None of the above"],
+    "answer": "B) It can shoot and decrease the player's health.",
+    "source": "Skeleton cannot be eaten; skeleton can shoot and cause the player's health to decrease."
+  },
+  {
+    "id": 23,
+    "question": "Which of the following is NOT true about a skeleton?",
+    "choices": ["A) The skeleton can be eaten.", "B) The skeleton can shoot.", "C) The skeleton can decrease the player's health.", "D) None of the above"],
+    "answer": "A) The skeleton can be eaten.",
+    "source": "Skeleton cannot be eaten; skeleton can shoot and cause the player's health to increase."
+  },
+  {
+    "id": 24,
+    "question": "What happens when a skeleton shoots at a player?",
+    "choices": ["A) The player's health increase.", "B) The player gains food points.", "C) The player's health decrease.", "D) None of the above"],
+    "answer": "C) The player's health decrease.",
+    "source": "Skeleton cannot be eaten; skeleton can shoot and cause the player's health to increase."
+  },
+  {
+    "id": 25,
+    "question": "What does a ripe-plant provide to the player?",
+    "choices": ["A) It can walk towards the player.", "B) It can be eaten and gives food points.", "C) It can shoot projectiles.", "D) It increases the player's health when shot.", "E) None of the above"],
+    "answer": "B) It can be eaten and gives food points.",
+    "source": "Ripe-plant can be eaten and give food points; ripe-plant cannot walk; ripe-plant cannot shoot."
+  },
+  {
+    "id": 26,
+    "question": "Which of these is NOT something a ripe-plant can do?",
+    "choices": ["A) Provide food points.", "B) Be eaten by the player.", "C) Walk or shoot.", "D) Stand still and be collected.", "E) None of the above"],
+    "answer": "C) Walk or shoot.",
+    "source": "Ripe-plant can be eaten and give food points; ripe-plant cannot walk; ripe-plant cannot shoot."
+  },
+  {
+    "id": 27,
+    "question": "What happens when a player drinks water?",
+    "choices": ["A) It decreases drink points.", "B) It increases drink points.", "C) It has no effect on drink points.", "D) It decreases health points.", "E) None of the above"],
+    "answer": "B) It increases drink points.",
+    "source": "Drink water can increase drink points."
+  },
+  {
+    "id": 28,
+    "question": "Which action increases drink points for a player?",
+    "choices": ["A) Drinking water.", "B) Drinking lava.", "C) Eating a ripe-plant.", "D) Walking on sand.", "E) None of the above"],
+    "answer": "A) Drinking water.",
+    "source": "Drink water can increase drink points."
+  },
+  {
+    "id": 29,
+    "question": "Can players drink lava?",
+    "choices": ["A) Yes, players can drink lava.", "B) No, players cannot drink lava."],
+    "answer": "B) No, players cannot drink lava.",
+    "source": "lava is not drinkable."
+  },
+  {
+    "id": 30,
+    "question": "What does a player get when they mine a tree?",
+    "choices": ["A) 1 stone.", "B) 1 wood.", "C) 1 leaf.", "D) nothing.", "E) None of the above"],
+    "answer": "B) 1 wood.",
+    "source": "Collecting from a tree without any tools yields 1 wood and leaves behind grass."
+  },
+  {
+    "id": 31,
+    "question": "Can tree be collected without any tools?",
+    "choices": ["A) Yes, it can be mined by hand.", "B) No, it must require a pickaxe.", "C) None of the above"],
+    "answer": "A) Yes, it can be mined by hand.",
+    "source": "Collecting from a tree without any tools yields 1 wood and leaves behind grass."
+  },
+  {
+    "id": 32,
+    "question": "Can stone be collected without any tools?",
+    "choices": ["A) Yes, it can be mined by hand.", "B) No, it must require a pickaxe.", "C) None of the above"],
+    "answer": "B) No, it must require a pickaxe.",
+    "source": "Collecting from stone with a wood pickaxe yields 1 stone and leaves behind path."
+  },
+  {
+    "id": 33,
+    "question": "If a player mine a tree by hand, what happens?",
+    "choices": ["A) The player get nothing.", "B) The player gets 1 wood.", "C) The player gets 1 fruit.", "D) The player gets 1 stone.", "E) None of the above"],
+    "answer": "B) The player gets 1 wood.",
+    "source": "Collecting from a tree without any tools yields 1 wood and leaves behind grass."
+  },
+  {
+    "id": 34,
+    "question": "What resource does a player gain by mining stone?",
+    "choices": ["A) Iron.", "B) Stone.", "C) Coal.", "D) Wood.", "E) None of the above"],
+    "answer": "B) Stone.",
+    "source": "Collecting from stone with a wood pickaxe yields 1 stone and leaves behind path."
+  },
+  {
+    "id": 35,
+    "question": "What does a player get when they mine coal with wooden pickaxe?",
+    "choices": ["A) 1 stone.", "B) 1 wood.", "C) 1 iron.", "D) 1 coal.", "E) None of the above"],
+    "answer": "D) 1 coal.",
+    "source": "Collecting from coal with a wood pickaxe yields 1 coal and leaves behind path."
+  },
+  {
+    "id": 36, 
+    "question": "What does a player get when they mine coal by hand?",
+    "choices": ["A) 1 stone.", "B) 1 wood.", "C) 1 iron.", "D) Nothing. The player must mine coal with pickaxe.", "E) None of the above"],
+    "answer": "D) Nothing. The player must mine coal with pickaxe.",
+    "source": "Collecting from coal with a wood pickaxe yields 1 coal and leaves behind path."
+  },
+
+  {
+    "id": 37,
+    "question": "How can players collect coal?",
+    "choices": ["A) The player need mine coal with a wooden pickaxe.", "B) The player can mine coal without tools.", "C) None of the above"],
+    "answer": "A) The player need mine coal with a wooden pickaxe.",
+    "source": "Collecting from coal with a wood pickaxe yields 1 coal and leaves behind path."
+  },
+  {
+    "id": 38,
+    "question": "What does a player get when they mine iron with a stone pickaxe?",
+    "choices": ["A) 1 stone.", "B) 1 wood.", "C) 1 iron.", "D) 1 coal.", "E) None of the above"],
+    "answer": "C) 1 iron.",
+    "source": "Collecting from iron with a stone pickaxe yields 1 iron and leaves behind path."
+  },
+  {
+    "id": 39,
+    "question": "If a player want to mine iron, what tool use they need?",
+    "choices": ["A) By hand.", "B) Stone pickaxe.", "C) Wood pickaxe.", "D) None of the above"],
+    "answer": "B) Stone pickaxe.",
+    "source": "Collecting from iron with a stone pickaxe yields 1 iron and leaves behind path."
+  },
+  {
+    "id": 40,
+    "question": "What does a player get when they mine diamond with an iron pickaxe?",
+    "choices": ["A) 1 stone.", "B) 1 wood.", "C) 1 diamond.", "D) 1 coal.", "E) None of the above"],
+    "answer": "C) 1 diamond.",
+    "source": "Collecting from diamond with an iron pickaxe yields 1 diamond and leaves behind path."
+  },
+  {
+    "id": 41,
+    "question": "If a player want to mine diamond, what tool use they need?",
+    "choices": ["A) By hand.", "B) Stone pickaxe.", "C) Iron pickaxe.", "D) Stone pickaxe.", "E) None of the above"],
+    "answer": "C) Iron pickaxe.",
+    "source": "Collecting from diamond with an iron pickaxe yields 1 diamond and leaves behind path."
+  },
+  {
+    "id": 42,
+    "question": "Can diamond be mined by a wood pickaxe?",
+    "choices": ["A) Yes, it can be mined by wood pickaxe.", "B) No, it must require a iron pickaxe.", "C) No, it must require a stone pickaxe.", "D) No, it can be mined by hand.", "E) None of the above"],
+    "answer": "B) No, it must require a iron pickaxe.",
+    "source": "Collecting from diamond with an iron pickaxe yields 1 diamond and leaves behind path."
+  },
+  {
+    "id": 43,
+    "question": "If a player want to drink water, what do they need?",
+    "choices": ["A) A wooden pickaxe.", "B) A plant.", "C) A stone pickaxe.", "D) Nothing. The player can directly drink water.", "E) None of the above"],
+    "answer": "D) Nothing. The player can directly drink water.",
+    "source": "Collecting from water without any tools yields 1 drink and leaves behind water."
+  },
+  {
+    "id": 44,
+    "question": "Players have nothing in their inventory. Can they drink water?",
+    "choices": ["A) Yes, they can drink water directly.", "B) No, they must have a plant to drink water.", "C) None of the above"],
+    "answer": "A) Yes, they can drink water directly.",
+    "source": "Collecting from water without any tools yields 1 drink and leaves behind water."
+  },
+  {
+    "id": 45,
+    "question": "What does a player potentially get when they mine grass without any tools?",
+    "choices": ["A) 1 stone.", "B) 1 wood.", "C) 1 sapling with 10% chance.", "D) 1 drink.", "E) None of the above"],
+    "answer": "C) 1 sapling with 10% chance.",
+    "source": "Collecting from grass without any tools yields yields a 10% chance of getting 1 sapling and leaves behind grass."
+  },
+  {
+    "id": 46,
+    "question": "If a player want to mine grass, what do they need?",
+    "choices": ["A) Nothing. The player can mine grass by hand.", "B) Stone pickaxe.", "C) Iron pickaxe.", "D) None of the above"],
+    "answer": "A) Nothing. The player can mine grass by hand.",
+    "source": "Collecting from grass without any tools yields 0-1 sapling and leaves behind grass."
+
+  },
+  {
+    "id": 47,
+    "question": "Which surfaces can you place 1 stone on?",
+    "choices": ["A) Grass, sand, path, water, or lava.", "B) Tree, grass, stone, path, or sand.", "C) Grass, water, coal, iron, or sand.", "D) Path, coal, water, lava, or diamond.", "E) None of the above"],
+    "answer": "A) Grass, sand, path, water, or lava.",
+    "source": "You can place 1 stone on grass, sand, path, water, or lava."
+  },
+  {
+    "id": 51,
+    "question": "What materials are needed to place a table?",
+    "choices": ["A) Stone.", "B) Wood.", "C) Coal.", "D) Diamond.", "E) None of the above"],
+    "answer": "B) Wood.",
+    "source": "You can place a table on grass, sand, or path using 2 wood."
+  },
+  {
+    "id": 53,
+    "question": "How many wood units are required to place a table?",
+    "choices": ["A) 1.", "B) 2.", "C) 3.", "D) 4.", "E) None of the above"],
+    "answer": "B) 2.",
+    "source": "You can place a table on grass, sand, or path using 2 wood."
+  },
+  {
+    "id": 54,
+    "question": "Which of the following surfaces is NOT suitable for placing a table?",
+    "choices": ["A) Grass.", "B) Sand.", "C) Path.", "D) Water.", "E) None of the above"],
+    "answer": "D) Water.",
+    "source": "You can place a table on grass, sand, or path using 2 wood."
+  },
+  {
+    "id": 55,
+    "question": "What materials are needed to place a furnace?",
+    "choices": ["A) Stone.", "B) Wood.", "C) Coal.", "D) Diamond.", "E) None of the above"],
+    "answer": "A) Stone.",
+    "source": "You can place a furnace on grass, sand, or path using 4 stone."
+  },
+  {
+    "id": 57,
+    "question": "How many stone units are required to place a furnace?",
+    "choices": ["A) 2.", "B) 3.", "C) 4.", "D) 5.", "E) None of the above"],
+    "answer": "C) 4.",
+    "source": "You can place a furnace on grass, sand, or path using 4 stone."
+  },
+  {
+    "id": 58,
+    "question": "Which of the following surfaces is NOT suitable for placing a furnace?",
+    "choices": ["A) Grass.", "B) Sand.", "C) Path.", "D) Water.", "E) None of the above"],
+    "answer": "D) Water.",
+    "source": "You can place a furnace on grass, sand, or path using 4 stone."
+  },
+  {
+    "id": 60,
+    "question": "Which material is needed to perform planting?",
+    "choices": ["A) Stone.", "B) Sapling.", "C) Wood.", "D) Tree.", "E) None of the above"],
+    "answer": "B) Sapling.",
+    "source": "You can place a plant on grass using 1 sapling."
+  },
+  {
+    "id": 61,
+    "question": "Which of the following surfaces is most suitable for planting?",
+    "choices": ["A) Grass.", "B) Sand.", "C) Path.", "D) Stone.", "E) None of the above"],
+    "answer": "A) Grass.",
+    "source": "You can place a plant on grass using 1 sapling."
+  },
+  {
+    "id": 62,
+    "question": "What material is needed to make a wood pickaxe?",
+    "choices": ["A) Iron.", "B) Stone.", "C) Wood.", "D) Diamond.", "E) None of the above"],
+    "answer": "C) Wood.",
+    "source": "You can make a wood pickaxe using 1 wood, near a table."
+  },
+  {
+    "id": 63,
+    "question": "Where must you be to make a wood pickaxe?",
+    "choices": ["A) Near a furnace.", "B) Near a table.", "C) Near a tree.", "D) Near a path.", "E) None of the above"],
+    "answer": "B) Near a table.",
+    "source": "You can make a wood pickaxe using 1 wood, near a table."
+  },
+  {
+    "id": 64,
+    "question": "If you have a table nearby, what is the minimum number of wood units needed to craft a wood pickaxe?",
+    "choices": ["A) 1.", "B) 2.", "C) 3.", "D) 4.", "E) None of the above"],
+    "answer": "A) 1.",
+    "source": "You can make a wood pickaxe using 1 wood, near a table."
+  },
+  {
+    "id": 65,
+    "question": "What materials are needed to make a stone pickaxe?",
+    "choices": ["A) Just wood.", "B) Just stone.", "C) Wood and stone.", "D) Just Diamond.", "E) None of the above"],
+    "answer": "C) Wood and stone.",
+    "source": "You can make a stone pickaxe using 1 wood and 1 stone, near a table."
+  },
+  {
+    "id": 66,
+    "question": "Where must you be to make a stone pickaxe?",
+    "choices": ["A) Near a furnace.", "B) Near a table.", "C) Near a tree.", "D) Near a path."],
+    "answer": "B) Near a table.",
+    "source": "You can make a stone pickaxe using 1 wood and 1 stone, near a table."
+  },
+  {
+    "id": 67,
+    "question": "If you have a table nearby, what is the minimum number of wood and stone units needed to craft a stone pickaxe?",
+    "choices": ["A) 1 wood and 1 stone.", "B) 2 wood and 1 stone.", "C) 1 wood and 2 stone.", "D) 2 wood and 2 stone."],
+    "answer": "A) 1 wood and 1 stone.",
+    "source": "You can make a stone pickaxe using 1 wood and 1 stone, near a table."
+  },
+  {
+    "id": 68,
+    "question": "If you have a table and furnace nearby, what materials are needed to make an iron pickaxe?",
+    "choices": ["A) 1 wood and 1 stone.", "B) 1 wood, 1 coal, and 1 iron.", "C) 2 wood and 1 iron.", "D) 1 stone, 1 coal, and 1 iron."],
+    "answer": "B) 1 wood, 1 coal, and 1 iron.",
+    "source": "You can make an iron pickaxe using 1 wood, 1 coal, and 1 iron, near a table and furnace."
+  },
+  {
+    "id": 69,
+    "question": "When you craft an iron pickaxe, where need you be to make an iron pickaxe?",
+    "choices": ["A) Near a tree and furnace.", "B) Only near a furnace.", "C) Near a table and furnace.", "D) Only near a table.", "E) None of the above"],
+    "answer": "C) Near a table and furnace.",
+    "source": "You can make an iron pickaxe using 1 wood, 1 coal, and 1 iron, near a table and furnace."
+  },
+  {
+    "id": 70,
+    "question": "What is the minimum number of coal units required to make an iron pickaxe?",
+    "choices": ["A) 1.", "B) 2.", "C) 3.", "D) 4.", "E) None of the above"],
+    "answer": "A) 1.",
+    "source": "You can make an iron pickaxe using 1 wood, 1 coal, and 1 iron, near a table and furnace."
+  },
+  {
+    "id": 71,
+    "question": "What material is needed to make a wood sword?",
+    "choices": ["A) Wood.", "B) Stone.", "C) Iron.", "D) Diamond.", "E) None of the above"],
+    "answer": "A) Wood.",
+    "source": "You can make a wood sword using 1 wood, near a table."
+  },
+  {
+    "id": 72,
+    "question": "Where must you be to make a wood sword?",
+    "choices": ["A) Near a furnace.", "B) Near a table.", "C) Near a tree.", "D) Near a path.", "E) None of the above"],
+    "answer": "B) Near a table.",
+    "source": "You can make a wood sword using 1 wood, near a table."
+  },
+  {
+    "id": 73,
+    "question": "If you have a table nearby, what is the minimum number of wood units needed to craft a wood sword?",
+    "choices": ["A) 1.", "B) 2.", "C) 3.", "D) 4.", "E) None of the above"],
+    "answer": "A) 1.",
+    "source": "You can make a wood sword using 1 wood, near a table."
+  },
+  {
+    "id": 74,
+    "question": "What materials are needed to make a stone sword?",
+    "choices": ["A) Wood.", "B) Stone.", "C) Wood and Stone.", "D) None of the above"],
+    "answer": "C) Wood and Stone.",
+    "source": "You can make a stone sword using 1 wood and 1 stone, near a table."
+  },
+  {
+    "id": 75,
+    "question": "Where must you be to make a stone sword?",
+    "choices": ["A) Near a furnace.", "B) Near a table.", "C) Near a tree.", "D) Near a path.", "E) None of the above"],
+    "answer": "B) Near a table.",
+    "source": "You can make a stone sword using 1 wood and 1 stone, near a table."
+  },
+  {
+    "id": 76,
+    "question": "If you have a table nearby, what is the minimum number of wood units needed to craft a stone sword?",
+    "choices": ["A) 3.", "B) 2.", "C) 1.", "D) 4.", "E) None of the above"],
+    "answer": "C) 1.",
+    "source": "You can make a stone sword using 1 wood and 1 stone, near a table."
+  },
+
+  {
+    "id": 77,
+    "question": "What materials are needed to make an iron sword?",
+    "choices": ["A) Wood and Stone.", "B) Wood, Coal, and Iron.", "C) Wood and Iron.", "D) Stone, Coal, and Iron."],
+    "answer": "B) Wood, Coal, and Iron.",
+    "source": "You can make an iron sword using 1 wood, 1 coal, and 1 iron, near a table and furnace."
+  },
+  {
+    "id": 78,
+    "question": "Where must you be to make an iron sword?",
+    "choices": ["A) Near a tree and furnace.", "B) Near a path and table.", "C) Near a table and furnace.", "D) Near a table and water.", "E) None of the above"],
+    "answer": "C) Near a table and furnace.",
+    "source": "You can make an iron sword using 1 wood, 1 coal, and 1 iron, near a table and furnace."
+  },
+  {
+    "id": 79,
+    "question": "What is the minimum number of coal units required to make an iron sword?",
+    "choices": ["A) 1.", "B) 2.", "C) 3.", "D) 4.", "E) None of the above"],
+    "answer": "A) 1.",
+    "source": "You can make an iron sword using 1 wood, 1 coal, and 1 iron, near a table and furnace."
+  },
+  {
+    "id": 80,
+    "question": "What is the minimum number of iron units required to make an iron sword?",
+    "choices": ["A) 2.", "B) 1.", "C) 3.", "D) 4.", "E) None of the above"],
+    "answer": "B) 1.",
+    "source": "You can make an iron sword using 1 wood, 1 coal, and 1 iron, near a table and furnace."
+  }
+]

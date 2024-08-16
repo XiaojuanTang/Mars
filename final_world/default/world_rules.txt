@@ -6,12 +6,11 @@ Terrain Walkability and Effects:
 NPC Characteristics:
 1. cow can be eaten and give food points; cow cannot attack player; cow cannot shoot.
 2. zombie cannot be eaten; zombie can walk to player and attack player, causing the player's health to decrease; zombie cannot shoot.
-3. skeleton cannot be eaten; skeleton can shoot and cause the player's health to increase.
+3. skeleton cannot be eaten; skeleton can shoot and cause the player's health to decrease.
 4. ripe-plant can be eaten and give food points; ripe-plant cannot walk; ripe-plant cannot shoot.
 
 Drink Characteristics:
-1. drink lava cannot effect drink points, health points and food points.
-2. drink water can increase drink points.
+1. drink water can increase drink points.
 
 Task Achievements:
 Collect items:
@@ -21,9 +20,8 @@ Collect items:
 4. Collecting from iron with a stone pickaxe yields 1 iron and leaves behind path.
 5. Collecting from diamond with an iron pickaxe yields 1 diamond and leaves behind path.
 6. Collecting from water without any tools yields 1 drink and leaves behind water.
-7. Collecting from lava without any tools yields 1 drink and leaves behind lava.
-8. Collecting from grass without any tools yields 0-1 sapling and leaves behind grass.
-9. Collecting from sand without any tools yields nothing and leaves behind sand.
+7. Collecting from grass without any tools yields 0-1 sapling and leaves behind grass.
+8. Collecting from sand without any tools yields nothing and leaves behind sand.
 
 Place something:
 1. You can place 1 stone on grass, sand, path, water, or lava.
