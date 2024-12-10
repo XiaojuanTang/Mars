@@ -10,7 +10,7 @@ setuptools.setup(
     long_description=pathlib.Path('README.md').read_text(),
     long_description_content_type='text/markdown',
     packages=['mars'],
-    package_data={'mars': ['*.yaml', 'assets/*']},
+    package_data={'mars': ['*.yaml', 'assets/*', 'api/*']},
     entry_points={'console_scripts': ['mars=mars.run_gui:main']},
     install_requires=[
         'imageio', 'pillow', 'opensimplex', 'ruamel.yaml', 'pyyaml', 'graphviz', 'pygame', 'gym', 'opencv-python','numpy'
