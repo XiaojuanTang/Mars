@@ -134,7 +134,7 @@ def main():
                         # logger.info("=="*10 + "\nAction: " + action_exe + '\n' + "=="*10)
                         # exec(f"bot.{action_exe}")
                         before_achievement = copy.deepcopy(env.info['achievements'])
-                        action_excute_res = controller(action_exe)
+                        action_execute_res = controller(action_exe)
                         after_achievement = copy.deepcopy(env.info['achievements'])
                         logger.info("*"*20 + "all reward" + "*"*20)
 
@@ -166,11 +166,11 @@ def main():
                         if env.info['done']:
                             break
                         
-                        if action_excute_res == True:
+                        if action_execute_res == True:
                             action_status = "success"
-                        elif action_excute_res == False:
+                        elif action_execute_res == False:
                             action_status = "failed"
-                        elif action_excute_res == "TIMEOUT":
+                        elif action_execute_res == "TIMEOUT":
                             action_status = "timeout"
                         # action_status = env.info['task_complete']
                     
