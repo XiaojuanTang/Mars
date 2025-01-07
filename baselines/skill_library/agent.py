@@ -351,10 +351,10 @@ class LLMcontroller:
                 # execute the action
                 
                 if action == "SUCCEED":
-                    excute_res = True
+                    execute_res = True
                     break
                 elif action == "FAILED":
-                    excute_res = False
+                    execute_res = False
                     break
                 else:
                     # history_to_induce.append(f"Action: {action}")
@@ -362,7 +362,7 @@ class LLMcontroller:
                     if self.env.info['done']:
                         # desciption = desciptor.controller_des(self.env.info, user_template)
                         # history_to_induce.append(desciption[-1]['content'])
-                        excute_res = False
+                        execute_res = False
                         break
             except Exception as e:
                 self.logger.error(e)
@@ -377,14 +377,14 @@ class LLMcontroller:
             #     break
             timeout -= 1
         if timeout == 0:
-            excute_res = "TIMEOUT"
+            execute_res = "TIMEOUT"
         
             desciption = desciptor.controller_des(self.env.info, user_template)
             # history_to_induce.append(desciption[-1]['content'])
         # perform controller reflection
         # self.controller_reflector(history_to_induce)
         
-        return excute_res
+        return execute_res
             
             
 
