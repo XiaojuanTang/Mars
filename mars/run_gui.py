@@ -26,12 +26,12 @@ def main():
   parser.add_argument('--health', type=int, default=9)
   parser.add_argument('--window', type=int, nargs=2, default=(600, 600))
   parser.add_argument('--size', type=int, nargs=2, default=(0, 0))
-  parser.add_argument('--record', type=pathlib.Path, default="myworld/test1")
+  parser.add_argument('--record', type=pathlib.Path, default="final_world/default")
   parser.add_argument('--fps', type=int, default=3)
   parser.add_argument('--wait', type=boolean, default=True)
   parser.add_argument('--death', type=str, default='quit', choices=[
       'continue', 'reset', 'quit'])
-  parser.add_argument('--gen_world', type=boolean, default=True)
+  parser.add_argument('--gen_world', type=boolean, default=False)
   # parser.add_argument('--default', type=boolean, default=True)
   parser.add_argument('--change_terrain', type=boolean, default=False)
   parser.add_argument('--terrian_kind', type=str, default='individual', choices=['permutation', 'individual', 'default'])
@@ -95,17 +95,17 @@ def main():
     with open(args.record / 'config.json', 'w') as file:
       json.dump(config, file)
   
-  # else:
-    # 直接读取世界
-  with open(args.record / 'config.json', 'r') as f:
-    config = json.load(f)
+  # # else:
+  #   # 直接读取世界
+  # with open(args.record / 'config.json', 'r') as f:
+  #   config = json.load(f)
   
-  # Override args with values from the config if they exist
-  for key, value in config.items():
-      if hasattr(args, key):
-          if key == 'record':
-            value = pathlib.Path(value)
-          setattr(args, key, value)
+  # # Override args with values from the config if they exist
+  # for key, value in config.items():
+  #     if hasattr(args, key):
+  #         if key == 'record':
+  #           value = pathlib.Path(value)
+  #         setattr(args, key, value)
   
   args.gen_world = gen_world
   # constants.read_world(constants / 'data.yaml')

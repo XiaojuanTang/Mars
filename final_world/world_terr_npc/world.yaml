@@ -1,9 +1,9 @@
 walkable:
-- stone
-- coal
-- water
-- path
-- sand
+  - stone
+  - coal
+  - water
+  - path
+  - sand
 walkable_effect:
   stone: {walkable: true, walk_health: 0, dieable: false}
   diamond: {walkable: false, walk_health: 0, dieable: false}

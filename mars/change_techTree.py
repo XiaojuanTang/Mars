@@ -286,7 +286,7 @@ def change_env_world(args, random):
 
         walkable_list = []
         for item, value in constants.walkable_effect.items():
-            if value['walkable'] and not value['dieable']:
+            if value['walkable']:
                 walkable_list.append(item)
 
         save_yaml.set_value('walkable', walkable_list)

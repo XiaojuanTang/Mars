@@ -2,6 +2,7 @@ walkable:
   - grass
   - path
   - sand
+  - lava
 
 walkable_effect:
   stone: {walkable: false, walk_health: 0, dieable: false}
